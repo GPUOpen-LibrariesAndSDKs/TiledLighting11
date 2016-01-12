@@ -15,10 +15,10 @@ In addition to standard point and spot lights, this sample supports shadow-casti
 * Additional documentation can be found in the `tiledlighting11\doc` directory.
 
 ### Premake
-The Visual Studio projects in the `tiledlighting11\build` directory were generated with Premake. To generate the project files yourself (for another version of Visual Studio, for example), open a command prompt in the `tiledlighting11\premake` directory and execute the following command:
+The Visual Studio projects in the `tiledlighting11\build` directory were generated with Premake. To generate the project files yourself (for another version of Visual Studio, for example), open a command prompt in the `premake` directory and execute the following command:
 
-* `..\..\premake\premake5.exe [action]`
-* For example: `..\..\premake\premake5.exe vs2010`
+* `update_vs_files_for_dx11_sample.bat tiledlighting11 [action]`
+* For example: `update_vs_files_for_dx11_sample.bat tiledlighting11 vs2010`
 
 This version of Premake has been modified from the stock version to use the property sheet technique for the Windows SDK from this [Visual C++ Team blog post](http://blogs.msdn.com/b/vcblog/archive/2012/11/23/using-the-windows-8-sdk-with-visual-studio-2010-configuring-multiple-projects.aspx). The technique was originally described for using the Windows 8.0 SDK with Visual Studio 2010, but it applies more generally to using newer versions of the Windows SDK with older versions of Visual Studio.
 
