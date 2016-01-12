@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ResourceFiles">
+      <UniqueIdentifier>{00A967FA-6C69-E330-35A4-2CAEA123280D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{EFAC8DF2-5B8C-0C8E-64A4-9764D00273EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\ResourceFiles\dpiaware.manifest">
+      <Filter>ResourceFiles</Filter>
+    </None>
+    <None Include="..\src\Shaders\Common.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\DebugDraw.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\Deferred.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\Forward.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\GenerateVPLs.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\RSM.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\TilingDeferred.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\TilingForward.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\Transparency.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\CommonConstants.h" />
+    <ClInclude Include="..\src\CommonUtil.h" />
+    <ClInclude Include="..\src\ForwardPlusUtil.h" />
+    <ClInclude Include="..\src\LightUtil.h" />
+    <ClInclude Include="..\src\RSMRenderer.h" />
+    <ClInclude Include="..\src\ResourceFiles\resource.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shaders\CommonHeader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shaders\LightingCommonHeader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shaders\TilingCommonHeader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShadowRenderer.h" />
+    <ClInclude Include="..\src\TiledDeferredUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\CommonUtil.cpp" />
+    <ClCompile Include="..\src\ForwardPlusUtil.cpp" />
+    <ClCompile Include="..\src\LightUtil.cpp" />
+    <ClCompile Include="..\src\RSMRenderer.cpp" />
+    <ClCompile Include="..\src\ShadowRenderer.cpp" />
+    <ClCompile Include="..\src\TiledDeferredUtil.cpp" />
+    <ClCompile Include="..\src\TiledLighting11.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\ResourceFiles\TiledLighting11.rc">
+      <Filter>ResourceFiles</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
