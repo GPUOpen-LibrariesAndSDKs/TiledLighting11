@@ -1,5 +1,5 @@
 # AMD Compute-Based Tiled Lighting Sample
-<img src="tiledlighting11/media/Thumbnail.png" width="480" height="280" />
+<img src="tiledlighting11/media/Thumbnail.png" width="480" height="284" />
 
 The TiledLighting11 DirectX 11 sample provides an example implementation of two tile-based light culling methods: Forward+ and Tiled Deferred. Both methods support high numbers of dynamic lights while maintaining performance. They utilize a Direct3D 11 compute shader (DirectCompute 5.0) to divide the screen into tiles and quickly cull lights against those tiles.
 
